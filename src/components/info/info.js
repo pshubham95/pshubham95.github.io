@@ -19,7 +19,7 @@ const info = () => (
       />
       <InfoItem
         iconProp={<Icon style={{ fontSize: '20px' }} type="file-protect" />}
-        itemProp={<span><a href="/files/503113699_DOCSPOC_62_1564731822071.pdf">Personal Resume</a></span>}
+        itemProp={<span><a href="https://drive.google.com/file/d/1Rkrl5GwY87fWy-qWR7JwnJOB8r8WN7dL/view?usp=sharing" target="_blank" rel="noreferrer noopener">Personal Resume</a></span>}
       />
     </Card>
   </div>
