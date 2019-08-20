@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Row, Col, Avatar, Button, Tooltip,
+  Row, Col, Avatar, Button, Tooltip, Icon,
 } from 'antd';
 import img from '../../img/profile.jpeg';
 import linkedin from '../../img/linkedin.svg';
@@ -46,6 +46,14 @@ const Introduction = () => (
                     Contact
                 </Button>
               </Tooltip>
+            </Col>
+          </Row>
+          <Row type="flex" justify="end" align="middle" className="mt-10">
+            <Col span={24} className="textAlignCenter">
+              <a href="https://github.com/pshubham95/pshubham95.github.io/tree/src" target="_blank" rel="noreferrer noopener">
+                <Icon type="link" />
+                &nbsp;Source code for this website
+              </a>
             </Col>
           </Row>
         </Col>
