@@ -22,7 +22,8 @@ const reco = () => (
         <Col span={24}>
           <a href="https://www.linkedin.com/in/shubham-patil-3746b058/" style={{ fontSize: '16px' }}>
             <Icon type="link" />
-             &nbsp; More on Linkedin
+            {' '}
+            More on Linkedin
           </a>
         </Col>
       </Row>

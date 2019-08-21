@@ -10,10 +10,10 @@ const workEx = () => (
       <h2>Work Experience</h2>
       <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
       <Row className="mt-15">
-        <Col lg={2} xs={4}>
+        <Col lg={2} xs={4} md={2}>
           <Avatar src={geAvi} size={60} />
         </Col>
-        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }}>
+        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Aviation</h2>
           <h3>Software Engineer ( Nov 2018 - Jul 2019)</h3>
           <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
@@ -22,14 +22,19 @@ const workEx = () => (
               <li>
                 Worked on tech stack migration of
                 a tool used for contract modeling of commerical aircraft engines.
-                This included designing wireframes using &nbsp;
+                This included designing wireframes using
+                {' '}
                 <b>Sketch</b>
-                &nbsp; after coordinating with users and product owners
+                {' '}
+                after coordinating with users and product owners
               </li>
               <li>
-                Translated the wireframes into usable screens using &nbsp;
+                Translated the wireframes into usable screens using
+                {' '}
                 <b>React JS</b>
-                &nbsp;and &nbsp;
+                {' '}
+                and
+                {' '}
                 <b>Ant Design</b>
               </li>
             </ul>
@@ -38,25 +43,29 @@ const workEx = () => (
       </Row>
 
       <Row className="mt-15">
-        <Col lg={2} xs={4}>
+        <Col lg={2} xs={4} md={2}>
           <Avatar src={geDig} size={60} />
         </Col>
-        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }}>
+        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Digital</h2>
           <h3>Software Engineer ( July 2017 - Nov 2018)</h3>
           <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
           <div className="mt-15">
             <ul>
               <li>
-                Developed an inventory management mobile application using &nbsp;
+                Developed an inventory management mobile application using
+                {' '}
                 <b>Cordova</b>
-                &nbsp; for a health care platform.
+                {' '}
+                for a health care platform.
                 The app was mainly used in hospitals for asset management of surgical kits.
               </li>
               <li>
-                Worked on the user interface microservice implentation using for the &nbsp;
+                Worked on the user interface microservice implentation using for the
+                {' '}
                 <b>Angular 6 and Node JS (Express)</b>
-                &nbsp; . Followed scrum throughout the project and used git for version control.
+                {' '}
+                . Followed scrum throughout the project and used git for version control.
               </li>
             </ul>
           </div>
@@ -64,10 +73,10 @@ const workEx = () => (
       </Row>
 
       <Row className="mt-15">
-        <Col lg={2} xs={4}>
+        <Col lg={2} xs={4} md={2}>
           <Avatar src={geDig} size={60} />
         </Col>
-        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }}>
+        <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Digital</h2>
           <h3>Software Engineering Specialist ( July 2016 - July 2017)</h3>
           <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
@@ -79,16 +88,19 @@ const workEx = () => (
                 clean rooms after a factory visit.
               </li>
               <li>
-                Configured edge devices in the clean room and used a &nbsp;
+                Configured edge devices in the clean room and used a
+                {' '}
                 <b>python</b>
-                &nbsp; script
+                {' '}
+                script
                 to ingest real-time data to
                 cloud.
               </li>
               <li>
-                Developed desktop and web applications using &nbsp;
+                Developed desktop and web applications using
+                {' '}
                 <b>Electron, React and Node JS</b>
-                &nbsp;
+                {' '}
                 to monitor these ambient
                 parameters.
               </li>

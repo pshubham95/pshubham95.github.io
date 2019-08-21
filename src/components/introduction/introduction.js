@@ -52,7 +52,8 @@ const Introduction = () => (
             <Col span={24} className="textAlignCenter">
               <a href="https://github.com/pshubham95/pshubham95.github.io/tree/src" target="_blank" rel="noreferrer noopener">
                 <Icon type="link" />
-                &nbsp;Source code for this website
+                {' '}
+                Source code for this website
               </a>
             </Col>
           </Row>
