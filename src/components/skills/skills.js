@@ -10,7 +10,7 @@ const info = () => {
     <div className="lesspaddingtop">
       <Card>
         <h2>Skills</h2>
-        <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+        <div className="divBorder" />
         {sections.map(e => (
           <div key={e}>
             <div className="mt-15 ml-15">

@@ -6,7 +6,7 @@ const reco = () => (
   <div className="lesspaddingtop">
     <Card>
       <h2>Recommendations</h2>
-      <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+      <div className="divBorder" />
       <Row className="mt-15">
         <Col span={24}>
           <p>

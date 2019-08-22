@@ -8,7 +8,7 @@ const workEx = () => (
   <div className="lesspaddingtop">
     <Card>
       <h2>Work Experience</h2>
-      <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+      <div className="divBorder" />
       <Row className="mt-15">
         <Col lg={2} xs={4} md={2}>
           <Avatar src={geAvi} size={60} />

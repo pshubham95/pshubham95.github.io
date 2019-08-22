@@ -11,7 +11,7 @@ const education = () => (
   <div className="lesspaddingtop">
     <Card>
       <h2>Education</h2>
-      <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+      <div className="divBorder" />
       <div className="mt-15">
         <Row className="ml-10">
           <Col span={16}>

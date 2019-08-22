@@ -19,7 +19,7 @@ const gallery = () => {
           {' '}
           <Icon type="camera" />
         </h2>
-        <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+        <div className="divBorder" />
         <div className="mt-10">
           <ImageGallery items={images} />
         </div>

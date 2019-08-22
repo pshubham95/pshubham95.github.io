@@ -6,7 +6,7 @@ const language = () => (
   <div className="lesspaddingtop">
     <Card>
       <h2>Languages</h2>
-      <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+      <div className="divBorder" />
       <Row className="mt-15 ml-5">
         <Col span={8}>
           <h4>English</h4>

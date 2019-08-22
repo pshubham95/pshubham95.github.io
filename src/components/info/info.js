@@ -8,7 +8,7 @@ const info = () => (
   <div className="lesspaddingtop">
     <Card>
       <h2>Personal Information</h2>
-      <div style={{ minHeight: '0.5px', border: '0.4px solid' }} />
+      <div className="divBorder" />
       <InfoItem
         iconProp={<Icon style={{ fontSize: '20px' }} component={locationSvg} />}
         itemProp={<span>Tempe, Arizona</span>}

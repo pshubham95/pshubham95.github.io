@@ -119,3 +119,8 @@ animation: BodyAnimation 9s ease infinite;
     margin-top: 15px;
   }
 }
+
+.divBorder {
+  min-height: 1px;
+  border: 0.4px solid;
+}
