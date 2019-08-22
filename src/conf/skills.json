@@ -1,11 +1,15 @@
 {
-    "softwareDevelopment": [{
+    "programmingLanguages": [{
         "name": "Javascript",
         "rating": 4
     }, {
         "name": "Python",
         "rating": 3.5
-    }, {
+    },{
+        "name": "C",
+        "rating": 3.5
+    },
+    {
         "name": "Java",
         "rating": 2
     }],
