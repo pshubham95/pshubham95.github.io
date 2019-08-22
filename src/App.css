@@ -126,6 +126,6 @@ animation: BodyAnimation 9s ease infinite;
 }
 
 .divBorderDashed {
-  min-height: 0.5px;
+  min-height: 1px;
   border: 0.4px dashed;
 }
