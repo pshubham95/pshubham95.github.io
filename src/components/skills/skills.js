@@ -15,7 +15,7 @@ const info = () => {
           <div key={e}>
             <div className="mt-15 ml-15">
               <h3 style={{ textTransform: 'capitalize' }}>{camelToNormal(e)}</h3>
-              <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
+              <div className="divBorderDashed" />
             </div>
             <div className="mt-5 ml-20">
               <Skill skills={skillJson[e]} />

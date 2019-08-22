@@ -124,3 +124,8 @@ animation: BodyAnimation 9s ease infinite;
   min-height: 1px;
   border: 0.4px solid;
 }
+
+.divBorderDashed {
+  min-height: 0.5px;
+  border: 0.4px dashed;
+}

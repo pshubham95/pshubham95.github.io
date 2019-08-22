@@ -16,7 +16,7 @@ const workEx = () => (
         <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Aviation</h2>
           <h3>Software Engineer ( Nov 2018 - Jul 2019)</h3>
-          <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
+          <div className="divBorderDashed" />
           <div className="mt-15">
             <ul>
               <li>
@@ -49,7 +49,7 @@ const workEx = () => (
         <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Digital</h2>
           <h3>Software Engineer ( July 2017 - Nov 2018)</h3>
-          <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
+          <div className="divBorderDashed" />
           <div className="mt-15">
             <ul>
               <li>
@@ -79,7 +79,7 @@ const workEx = () => (
         <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
           <h2 className="mb-0">GE Digital</h2>
           <h3>Software Engineering Specialist ( July 2016 - July 2017)</h3>
-          <div style={{ minHeight: '0.5px', border: '0.4px dashed' }} />
+          <div className="divBorderDashed" />
           <div className="mt-15">
             <ul>
               <li>
