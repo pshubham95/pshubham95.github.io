@@ -1,0 +1,31 @@
+[
+    {
+        "company": "GE Aviation",
+        "title": "Software Engineer ( Nov 2018 - Jul 2019)",
+        "imageIdentifer": "geAviation",
+        "description": [
+            "Designed wireframes for a newer version of legacy software which resulted in enhanced user experience. This included designing mockups using <b>Sketch</b> after coordinating with users and product owners",
+            "Re-engineered the user interface from Angular JS to a React app and integrated the same with a Jenkins pipeline to eliminate manual deployments. The technologies used were <b> Node JS + React + Ant Design .</b>"
+        ]
+    }, {
+        "company": "GE Digital",
+        "title": "Software Engineer ( July 2017 - Nov 2018)",
+        "imageIdentifer": "geDigital",
+        "description": [
+            "Engineered a hybrid mobile application using <b>Ionic 2</b> for tracking surgical kits as part of an asset management system that resulted in increased availability of assets and reduced losses.",
+            "Developed REST API’s to support the user mobile app using <b>Node JS (Express).</b>",
+            "Built user interface using <b>React</b> for a product which managed the lifecycle of GE’s aviation engines and saved $650 - $700M in operational costs each year.",
+            "Worked in a team of five to design a crash course on <b>Predix, a cloud platform by GE for internet of things.</b>",
+            "Conducted sessions for hands on training of Predix across multiple GE sites resulting in increased knowledge transfer."
+        ]
+    },  {
+        "company": "GE Digital",
+        "title": "Software Engineering Specialist ( July 2016 - July 2017)",
+        "imageIdentifer": "geDigital",
+        "description": [
+            "Piloted a project for monitoring cleanrooms by developing a solution prototype after a factory visit and eventually scaled the tool across fifteen GE sites.",
+            "Coordinated with technical architects and onsite engineers to configure edge devices using <b>python</b> that collected and ingested real-time temperature, humidity, and particle count data onto the cloud.",
+            "Developed a suite of desktop and web application using <b>Angular and Electron</b> to visualize real-time data and trigger notifications on abnormalities which reduced manufacturing defects by 15%."
+        ]
+    }
+]
