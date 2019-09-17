@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import './margin_padding_helper.css';
 import Introduction from './components/introduction/introduction';
 import About from './components/about/about';
+import Projects from './components/projects/projects';
 import Info from './components/info/info';
 import Skills from './components/skills/skills';
 import WorkEx from './components/workex/workex';
@@ -28,13 +29,7 @@ function App() {
           <Col lg={{ span: 16, order: 1 }} xs={{ span: 24, order: 2 }} className="mt-15">
             <WorkEx />
             <div className="mt-15">
-              <Recommendations />
-            </div>
-            <div className="mt-15">
-              <Medium />
-            </div>
-            <div className="mt-15">
-              <Gallery />
+              <Projects />
             </div>
           </Col>
           <Col lg={{ span: 7, offset: 1, order: 2 }} xs={{ span: 24, offset: 0, order: 1 }} className="mt-15">
@@ -49,10 +44,19 @@ function App() {
               <Education />
             </div>
             <div className="mt-15">
+              <Recommendations />
+            </div>
+            <div className="mt-15">
               <Languages />
+            </div>
+            <div className="mt-15">
+              <Medium />
             </div>
           </Col>
         </Row>
+        <div className="mt-15">
+          <Gallery />
+        </div>
       </div>
       <Row>
         <div className="mt-10 footerClass">
