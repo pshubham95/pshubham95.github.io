@@ -3,7 +3,7 @@ import {
   Row, Col, Divider, Icon,
 } from 'antd';
 import ImageGallery from 'react-image-gallery';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 
 const projects = () => {

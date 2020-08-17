@@ -1,4 +1,12 @@
-[
+[ {
+        "company": "Amazon Web Services (AWS)",
+        "title": "SDE Intern ( May 2020 - August 2020)",
+        "imageIdentifer": "aws",
+        "description": [
+            "Worked in the AWS Marketplace Metering team to build a system for monitoring the health of the services using the AWS Tech stack.",
+            "Engineered the system to emit operational metrics, offer monitoring capabilities to give insights to the engineering team leading to cost savings of several thousand dollars per year."
+        ]
+    },
     {
         "company": "GE Aviation",
         "title": "Software Engineer ( Nov 2018 - Jul 2019)",

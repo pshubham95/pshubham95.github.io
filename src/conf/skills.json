@@ -5,13 +5,23 @@
     }, {
         "name": "Python",
         "rating": 3.5
-    },{
-        "name": "C",
-        "rating": 3.5
     },
     {
         "name": "Java",
-        "rating": 2
+        "rating": 3.5
+    }],
+    "cloudPlatformAndServices": [{
+        "name": "AWS Cloudformation",
+        "rating": 4
+    }, {
+        "name": "AWS CloudWatch",
+        "rating": 4
+    }, {
+        "name": "AWS Lambda",
+        "rating": 4
+    }, {
+        "name": "AWS S3",
+        "rating": 3
     }],
     "webDevelopment": [{
         "name": "React",

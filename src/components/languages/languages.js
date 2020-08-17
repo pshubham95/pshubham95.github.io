@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Rate } from 'antd';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 const language = () => (
   <div className="lesspaddingtop">

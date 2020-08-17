@@ -7,10 +7,10 @@ const skill = (props) => {
   return (
     skills.map(e => (
       <Row type="flex" justify="end" align="middle" key={`${e.rating}_${e.name}`}>
-        <Col span={5}>
+        <Col span={12}>
           <div key={e.name} className="mt-5">{e.name}</div>
         </Col>
-        <Col span={19} style={{ textAlign: 'right' }}>
+        <Col span={12} style={{ textAlign: 'right' }}>
           <Rate style={{ color: '#74b9ff' }} allowHalf defaultValue={e.rating} count={5} disabled />
         </Col>
       </Row>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 const about = () => (
   <div className="lesspaddingtop">
@@ -8,7 +8,8 @@ const about = () => (
       <div className="divBorder" />
       <div className="mt-5" style={{ fontWeight: '400' }}>
         I’m a computer science graduate student at Arizona State University.
-        I have around 3 years of professional experience working as a software engineer at
+        I interned with Amazon Web Services (AWS) over the summer.
+        In addition to that, I have around 3 years of professional experience working as a software engineer at
         {' '}
         General Electric.
         I’ve experience in the fields of full stack web development, hybrid mobile apps.

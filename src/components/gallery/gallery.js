@@ -4,7 +4,7 @@ import {
 } from 'antd';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 class gallery extends React.Component {
   constructor() {

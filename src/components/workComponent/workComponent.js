@@ -3,6 +3,7 @@ import { Row, Col, Avatar } from 'antd';
 import PropTypes from 'prop-types';
 import geAviation from '../../img/ge_aviation.png';
 import geDigital from '../../img/ge_digital.png';
+import aws from '../../img/aws.jpg';
 
 const workComponent = (props) => {
   const {
@@ -11,10 +12,20 @@ const workComponent = (props) => {
     description,
     image,
   } = props;
+
+  const getImageIdentifier = (imageIdentifier) => {
+    switch (imageIdentifier) {
+      case 'geAviation': return geAviation;
+      case 'geDigital': return geDigital;
+      case 'aws': return aws;
+      default: return geDigital;
+    }
+  };
+
   return (
     <Row className="mt-15">
       <Col lg={2} xs={4} md={2}>
-        <Avatar src={image === 'geAviation' ? geAviation : geDigital} size={60} />
+        <Avatar src={getImageIdentifier(image)} size={60} />
       </Col>
       <Col lg={{ span: 22, offset: 0 }} xs={{ span: 19, offset: 1 }} md={{ span: 21, offset: 1 }}>
         <h2 className="mb-0">{company}</h2>

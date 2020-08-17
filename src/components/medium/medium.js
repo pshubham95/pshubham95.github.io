@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 const medium = () => (
   <div className="lesspaddingtop">

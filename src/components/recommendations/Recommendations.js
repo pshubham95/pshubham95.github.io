@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Icon } from 'antd';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 const reco = () => (
   <div className="lesspaddingtop">

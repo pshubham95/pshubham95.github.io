@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from 'antd';
-import Card from '../customcard/customcard';
-import InfoItem from '../infoItem/infoItem';
+import Card from '../customcard/CustomCard';
+import InfoItem from '../infoItem/InfoItem';
 import { ReactComponent as locationSvg } from '../../img/iconmonstr-location-1.svg';
 
 const info = () => (

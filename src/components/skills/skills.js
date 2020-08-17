@@ -1,6 +1,6 @@
 import React from 'react';
-import Skill from '../skill/skill';
-import Card from '../customcard/customcard';
+import Skill from '../skill/Skill';
+import Card from '../customcard/CustomCard';
 import camelToNormal from '../../utils/index';
 import skillJson from '../../conf/skills.json';
 

@@ -5,7 +5,7 @@ import {
 import img from '../../img/profile.jpeg';
 import linkedin from '../../img/linkedin.svg';
 import facebook from '../../img/facebook.svg';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 
 const Introduction = () => (
   <div>

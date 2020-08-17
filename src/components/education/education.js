@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Row, Col, Avatar, Tag,
 } from 'antd';
-import Card from '../customcard/customcard';
+import Card from '../customcard/CustomCard';
 import asu from '../../img/asu_sun.png';
 import coep from '../../img/coep.jpg';
 
